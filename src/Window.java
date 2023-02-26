@@ -1,6 +1,3 @@
-//James Stark
-//910065590
-//CSCI3063_029211S
 
 import java.awt.*;
 import java.awt.event.*;
@@ -110,7 +107,7 @@ public class Window extends JFrame
             public void actionPerformed(ActionEvent evt)
             {
             	if(infoOpen == false) {
-            		infoText.setText("Created by James Stark\nCompleted on 12/4/2021\n" 
+            		infoText.setText("Created by Noelle Stark\nCompleted on 12/4/2021\n" 
             				+ "In order to beat tic tac toe, get three in a row");
             		infoOpen = true;
             	} else
